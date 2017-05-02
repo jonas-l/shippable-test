@@ -1,0 +1,5 @@
+app:
+  build:
+    image: alpine:3.4
+  volumes:
+    - ./:/code

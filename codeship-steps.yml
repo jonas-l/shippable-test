@@ -1,0 +1,6 @@
+- type: parallel
+  steps:
+  - service: app
+    command: ls -a
+  - service: app
+    command: env
