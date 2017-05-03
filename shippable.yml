@@ -1,10 +1,12 @@
 language: none
 
 build:
+  pre_ci:
+  - docker pull alpine:3.4
   pre_ci_boot:
     image_name: alpine
     image_tag: 3.4
-    pull: true
+    pull: false
     options: "-e HOME=/root"
   ci:
   - uname -a
