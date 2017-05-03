@@ -3,7 +3,6 @@ language: none
 build:
   pre_ci:
   - docker pull alpine:3.4
-  - ls /home/shippable/cexec/
   pre_ci_boot:
     image_name: alpine
     image_tag: 3.4
