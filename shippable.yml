@@ -5,6 +5,7 @@ build:
     image_name: alpine
     image_tag: 3.4
     pull: true
+    options: "-e HOME=/root"
   ci:
   - uname -a
   - ls -a
