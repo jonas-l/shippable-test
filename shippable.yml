@@ -1,0 +1,10 @@
+language: none
+
+build:
+  pre_ci_boot:
+    image_name: alpine
+    image_tag: 3.4
+    pull: true
+  ci:
+  - uname -a
+  - ls -a
